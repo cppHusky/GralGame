@@ -1,0 +1,11 @@
+unit: stage1/l1/s05
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l1/s05#0000", anchor: "杨秉放下保温杯接下来我们就提高难" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s05#0001", anchor: "刘津起身我叫刘津" }
+    do:
+      - { cmd: "show", char: "liu-jin", expr: "neutral", slot: "right" }

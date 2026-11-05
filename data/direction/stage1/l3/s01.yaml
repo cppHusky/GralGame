@@ -1,0 +1,54 @@
+unit: stage1/l3/s01
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l3/s01#0000", anchor: "严佩咳咳我们上课了保持安静对门外" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s01#0001", anchor: "郝祺起身那个如果直接裂项的话会非" }
+    do:
+      - { cmd: "show", char: "hao-qi", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s01#0006", anchor: "万籁喘气老师对不起睡过头了" }
+    do:
+      - { cmd: "show", char: "wan-lai", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s01#0014", anchor: "宗延可以换元公式只要分子分母同乘" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "zong-yan", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s01#0015", anchor: "严佩那你说一下裂项的式子还有要设" }
+    do:
+      - { cmd: "hide", char: "hao-qi" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s01#0020", anchor: "赵超起身这个这个" }
+    do:
+      - { cmd: "hide", char: "wan-lai" }
+      - { cmd: "show", char: "zhao-chao", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s01#0022", anchor: "詹布缓慢起身若有所思十指微颤念念" }
+    do:
+      - { cmd: "hide", char: "zong-yan" }
+      - { cmd: "show", char: "zhan-bu", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s01#0032", anchor: "石绅起身我觉得嗝可以换元公式把它" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "shi-shen", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s01#0033", anchor: "严佩摆手你快坐下吧我们之前确实提" }
+    do:
+      - { cmd: "hide", char: "zhao-chao" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s01#0034", anchor: "杜颛起身应该得先把被积函数先化成" }
+    do:
+      - { cmd: "hide", char: "zhan-bu" }
+      - { cmd: "show", char: "du-zhuan", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s01#0038", anchor: "明烛起身这道题的分母是公式所以需" }
+    do:
+      - { cmd: "hide", char: "shi-shen" }
+      - { cmd: "show", char: "ming-zhu", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s01#0043", anchor: "温舒像是发现了什么似的扭过头来端" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "wen-shu", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s01#0044", anchor: "严佩你们俩都坐吧这道题一上来被积" }
+    do:
+      - { cmd: "hide", char: "du-zhuan" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }

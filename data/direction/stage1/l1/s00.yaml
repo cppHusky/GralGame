@@ -1,0 +1,19 @@
+unit: stage1/l1/s00
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l1/s00#0000", anchor: "严佩咳咳我们上课了保持安静我们这" }
+    do:
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s00#0003", anchor: "杨秉嘿嘿我就知道老严的课肯定要出" }
+    do:
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "right" }
+      - { cmd: "expr", char: "yang-bing", expr: "smile" }
+      - { cmd: "hide", char: "yan-pei" }
+  - at: { id: "stage1/l1/s00#0004", anchor: "温舒站起来面朝向大家鞠了个躬He" }
+    do:
+      - { cmd: "show", char: "wen-shu", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s00#0006", anchor: "牛弘你慢慢讲都行他这节课肯定回不" }
+    do:
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "left" }
+      - { cmd: "expr", char: "niu-hong", expr: "smile" }

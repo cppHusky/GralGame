@@ -1,0 +1,28 @@
+unit: stage1/l2/s01
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s01#0000", anchor: "严佩上节课杨教授给大家讲解了什么" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s01#0001", anchor: "窦法起身嗯我可以把它拆成两个积分" }
+    do:
+      - { cmd: "show", char: "dou-fa", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s01#0007", anchor: "隋欣完全没听到仍在自顾自摸鱼" }
+    do:
+      - { cmd: "show", char: "sui-xin", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s01#0008", anchor: "严佩我说拿起一枝笔在讲桌上用力戳" }
+    do:
+      - { cmd: "expr", char: "yan-pei", expr: "angry" }
+  - at: { id: "stage1/l2/s01#0012", anchor: "严佩上课不要玩手机摆手坐吧我们来" }
+    do:
+      - { cmd: "expr", char: "yan-pei", expr: "neutral" }
+  - at: { id: "stage1/l2/s01#0013", anchor: "吕顺起身可以把完全平方公式展开变" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "lv-shun", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s01#0014", anchor: "严佩正确你叫什么名字" }
+    do:
+      - { cmd: "hide", char: "dou-fa" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }

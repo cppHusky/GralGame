@@ -1,0 +1,28 @@
+unit: stage1/l2/s05
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s05#0000", anchor: "严佩是魏荷啊你有什么问题" }
+    do:
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s05#0001", anchor: "魏荷起身刚才我试着强行裂项结果有" }
+    do:
+      - { cmd: "show", char: "wei-he", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s05#0005", anchor: "魏荷我裂项的结果是这样的对这个式" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+  - at: { id: "stage1/l2/s05#0013", anchor: "肖虑" }
+    do:
+      - { cmd: "show", char: "xiao-lv", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s05#0015", anchor: "金缡起身我试了一下代入公式分别到" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "jin-li", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s05#0016", anchor: "严佩非常好你刚才犯了一个十分典型" }
+    do:
+      - { cmd: "hide", char: "wei-he" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s05#0023", anchor: "吉锲抢答公式" }
+    do:
+      - { cmd: "hide", char: "xiao-lv" }
+      - { cmd: "show", char: "ji-qie", expr: "neutral", slot: "left" }

@@ -1,0 +1,30 @@
+unit: stage1/l2/s04
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s04#0000", anchor: "严佩下面我再给大家出一道题这列第" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s04#0001", anchor: "沈嗣起身我记得这种问题好像是通过" }
+    do:
+      - { cmd: "show", char: "shen-si", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s04#0007", anchor: "万籁起身应该可以用平方差公式分解" }
+    do:
+      - { cmd: "show", char: "wan-lai", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s04#0011", anchor: "赵超我不行我不行" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "zhao-chao", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s04#0012", anchor: "严佩我给大家一分钟的时间考虑一下" }
+    do:
+      - { cmd: "hide", char: "shen-si" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s04#0015", anchor: "朱异我有一个思路先对分子分母同乘" }
+    do:
+      - { cmd: "hide", char: "wan-lai" }
+      - { cmd: "show", char: "zhu-yi", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s04#0017", anchor: "魏荷等等举手我有个问题" }
+    do:
+      - { cmd: "hide", char: "zhao-chao" }
+      - { cmd: "show", char: "wei-he", expr: "neutral", slot: "center" }

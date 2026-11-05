@@ -1,0 +1,26 @@
+lessons:
+  绪论课: stage1/l1
+  基本积分方法: stage1/l2
+  进阶积分技巧: stage1/l3
+  拓展裂项方法: stage1/l4
+units:
+  绪论课:
+    多项式函数: stage1/l1/s01
+    多项式方程: stage1/l1/s02
+    多项式的因式分解: stage1/l1/s03
+    有理函数: stage1/l1/s04
+    多项式的带余除法: stage1/l1/s05
+    真分式的部分分式分解: stage1/l1/s06
+  基本积分方法:
+    分项积分法: stage1/l2/s01
+    换元积分法: stage1/l2/s02
+    扩展基本积分公式: stage1/l2/s03
+    通过部分分式分解来分项: stage1/l2/s04
+    原函数的等价问题: stage1/l2/s05
+    最终问题: stage1/l2/s06
+  进阶积分技巧:
+    合理分项，善用换元: stage1/l3/s01
+    倒代换: stage1/l3/s02
+    对勾换元: stage1/l3/s03
+    组合积分法: stage1/l3/s04
+  拓展裂项方法: {}

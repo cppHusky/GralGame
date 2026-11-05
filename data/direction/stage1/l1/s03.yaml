@@ -1,0 +1,30 @@
+unit: stage1/l1/s03
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l1/s03#0000", anchor: "杨秉刚才提到了因式分解那我就接着" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s03#0001", anchor: "李清起身我叫李清" }
+    do:
+      - { cmd: "show", char: "li-qing", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l1/s03#0009", anchor: "吉锲起身我叫吉锲" }
+    do:
+      - { cmd: "show", char: "ji-qie", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l1/s03#0013", anchor: "牛弘你加个什么再减个什么它就有了" }
+    do:
+      - { cmd: "hide", char: "yang-bing" }
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s03#0015", anchor: "杨秉对啦请坐我写一下过程啊就这样" }
+    do:
+      - { cmd: "hide", char: "li-qing" }
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l1/s03#0016", anchor: "李清起身首先可以把它分解成公式然" }
+    do:
+      - { cmd: "hide", char: "ji-qie" }
+      - { cmd: "show", char: "li-qing", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l1/s03#0018", anchor: "施仁呃我我算一下找笔" }
+    do:
+      - { cmd: "hide", char: "niu-hong" }
+      - { cmd: "show", char: "shi-ren", expr: "neutral", slot: "center" }

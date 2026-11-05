@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema": {
+      "type": "number",
+      "const": 1
+    },
+    "bookCommit": {
+      "type": "string"
+    },
+    "typstVersion": {
+      "type": "string"
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "units": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": ["section", "after-lesson"]
+                },
+                "title": {
+                  "type": "string"
+                },
+                "beats": {
+                  "type": "array",
+                  "items": {
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "kind": {
+                            "type": "string",
+                            "const": "turn"
+                          },
+                          "id": {
+                            "type": "string"
+                          },
+                          "anchor": {
+                            "type": "string"
+                          },
+                          "hash": {
+                            "type": "string"
+                          },
+                          "speaker": {
+                            "type": "string"
+                          },
+                          "blocks": {
+                            "type": "array",
+                            "items": {
+                              "oneOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "p"
+                                    },
+                                    "inline": {
+                                      "type": "array",
+                                      "items": {
+                                        "$ref": "#/$defs/__schema0"
+                                      }
+                                    }
+                                  },
+                                  "required": ["kind", "inline"],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "eq"
+                                    },
+                                    "math": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    }
+                                  },
+                                  "required": ["kind", "math"],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "fig"
+                                    },
+                                    "math": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    }
+                                  },
+                                  "required": ["kind", "math"],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "list"
+                                    },
+                                    "items": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "array",
+                                        "items": {
+                                          "$ref": "#/$defs/__schema0"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "required": ["kind", "items"],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "required": [
+                          "kind",
+                          "id",
+                          "anchor",
+                          "hash",
+                          "speaker",
+                          "blocks"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "kind": {
+                            "type": "string",
+                            "const": "narration"
+                          },
+                          "id": {
+                            "type": "string"
+                          },
+                          "anchor": {
+                            "type": "string"
+                          },
+                          "hash": {
+                            "type": "string"
+                          },
+                          "location": {
+                            "type": "string"
+                          },
+                          "blocks": {
+                            "type": "array",
+                            "items": {
+                              "oneOf": [
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "p"
+                                    },
+                                    "inline": {
+                                      "type": "array",
+                                      "items": {
+                                        "$ref": "#/$defs/__schema0"
+                                      }
+                                    }
+                                  },
+                                  "required": ["kind", "inline"],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "eq"
+                                    },
+                                    "math": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    }
+                                  },
+                                  "required": ["kind", "math"],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "fig"
+                                    },
+                                    "math": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    }
+                                  },
+                                  "required": ["kind", "math"],
+                                  "additionalProperties": false
+                                },
+                                {
+                                  "type": "object",
+                                  "properties": {
+                                    "kind": {
+                                      "type": "string",
+                                      "const": "list"
+                                    },
+                                    "items": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "array",
+                                        "items": {
+                                          "$ref": "#/$defs/__schema0"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "required": ["kind", "items"],
+                                  "additionalProperties": false
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "required": ["kind", "id", "anchor", "hash", "blocks"],
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "required": ["id", "kind", "beats"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": ["id", "title", "units"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["schema", "bookCommit", "typstVersion", "lessons"],
+  "additionalProperties": false,
+  "$defs": {
+    "__schema0": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "t": {
+              "type": "string",
+              "const": "text"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": ["t", "text"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "t": {
+              "type": "string",
+              "const": "math"
+            },
+            "math": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": ["t", "math"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "t": {
+              "type": "string",
+              "const": "ruby"
+            },
+            "base": {
+              "type": "string"
+            },
+            "rt": {
+              "type": "string"
+            }
+          },
+          "required": ["t", "base", "rt"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "t": {
+              "type": "string",
+              "const": "strong"
+            },
+            "children": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/__schema0"
+              }
+            }
+          },
+          "required": ["t", "children"],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

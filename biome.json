@@ -1,0 +1,24 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.6.4/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!AGENTS.md",
+      "!**/*.md",
+      "!generated",
+      "!.build",
+      "!dist",
+      "!test-results",
+      "!node_modules",
+      "!assets/_inbox",
+      "!assets/_src",
+      "!assets/ch",
+      "!assets/bg"
+    ]
+  },
+  "formatter": { "indentStyle": "space", "indentWidth": 2 },
+  "javascript": {
+    "formatter": { "quoteStyle": "single", "semicolons": "always" }
+  },
+  "linter": { "enabled": true, "rules": { "preset": "recommended" } }
+}

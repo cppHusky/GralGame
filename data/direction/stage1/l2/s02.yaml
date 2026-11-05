@@ -1,0 +1,26 @@
+unit: stage1/l2/s02
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s02#0000", anchor: "严佩现在我们再回到窦法的这道题这" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s02#0001", anchor: "肖虑" }
+    do:
+      - { cmd: "show", char: "xiao-lv", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s02#0005", anchor: "朱异起身我有个想法如果把公式用公" }
+    do:
+      - { cmd: "show", char: "zhu-yi", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s02#0009", anchor: "李清起身这个如果分母是公式的话可" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "li-qing", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s02#0010", anchor: "严佩指着三个基本积分公式回到这节" }
+    do:
+      - { cmd: "hide", char: "xiao-lv" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s02#0015", anchor: "章拒起身我认为考虑到我们解决积分" }
+    do:
+      - { cmd: "hide", char: "zhu-yi" }
+      - { cmd: "show", char: "zhang-ju", expr: "neutral", slot: "left" }

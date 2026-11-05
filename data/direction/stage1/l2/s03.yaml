@@ -1,0 +1,40 @@
+unit: stage1/l2/s03
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s03#0000", anchor: "严佩有了换元积分法之后我们再回看" }
+    do:
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s03#0003", anchor: "赵超起身我叫赵超" }
+    do:
+      - { cmd: "show", char: "zhao-chao", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s03#0004", anchor: "严佩我带了九年学生敢说把积分表全" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+  - at: { id: "stage1/l2/s03#0007", anchor: "魏荷起身可以令公式这样公式把这个" }
+    do:
+      - { cmd: "show", char: "wei-he", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s03#0011", anchor: "史姝起身应该可以令公式然后公式把" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "shi-shu", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s03#0012", anchor: "严佩正确你叫什么名字" }
+    do:
+      - { cmd: "hide", char: "zhao-chao" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s03#0019", anchor: "王霁起身这个" }
+    do:
+      - { cmd: "hide", char: "wei-he" }
+      - { cmd: "show", char: "wang-ji", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s03#0023", anchor: "杜颛起身好像叫第一类分式和第二类" }
+    do:
+      - { cmd: "hide", char: "shi-shu" }
+      - { cmd: "show", char: "du-zhuan", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s03#0025", anchor: "牛弘我我吗" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s03#0026", anchor: "严佩哦是你啊戴着口罩我差点没认出" }
+    do:
+      - { cmd: "hide", char: "wang-ji" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "left" }

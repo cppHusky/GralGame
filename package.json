@@ -1,0 +1,61 @@
+{
+  "name": "gralgame",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.17.0",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "pnpm build:script && pnpm subset:fonts && vite",
+    "build:typst": "tsx tools/build-typst.ts",
+    "prepare:fonts": "tsx tools/prepare-fonts.ts",
+    "prepare:fonttools": "tsx tools/prepare-fonttools.ts",
+    "subset:fonts": "pnpm prepare:fonttools && tsx tools/subset-fonts.ts",
+    "build:ir": "tsx tools/html-to-ir.ts",
+    "build:script": "pnpm prepare:fonts && pnpm build:typst && pnpm build:ir",
+    "schema:export": "tsx tools/export-schemas.ts",
+    "check:ir": "tsx tools/check-ir.ts",
+    "check:direction": "tsx tools/check-direction.ts",
+    "check:assets": "tsx tools/check-assets.ts",
+    "check:deploy-size": "tsx tools/check-deploy-size.ts",
+    "art:extract": "tsx tools/extract-sheets.ts",
+    "ingest:art": "pnpm art:extract && tsx tools/ingest-art.ts",
+    "direction:rebase": "tsx tools/direction-rebase.ts",
+    "direction:anchor": "tsx tools/direction-anchor.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "test": "vitest run --config vitest.config.ts",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm check:ir && pnpm check:direction && pnpm check:assets",
+    "e2e": "playwright test",
+    "build": "pnpm build:script && pnpm subset:fonts && vite build && pnpm check:deploy-size",
+    "deploy": "pnpm build && wrangler deploy",
+    "deploy:staging": "pnpm build && wrangler deploy --name gralgame-staging",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-virtual": "3.14.26",
+    "parse5": "8.1.0",
+    "pixi.js": "8.22.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "yaml": "2.9.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.4",
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "fflate": "0.8.3",
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.1.0",
+    "wrangler": "4.157.0"
+  }
+}

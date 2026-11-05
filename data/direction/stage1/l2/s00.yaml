@@ -1,0 +1,10 @@
+unit: stage1/l2/s00
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s00#0000", anchor: "严佩咳咳我们上课了保持安静首先我" }
+    do:
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s00#0001", anchor: "牛弘用口罩遮住大半张脸在口罩的掩" }
+    do:
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "right" }

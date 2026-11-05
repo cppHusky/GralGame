@@ -1,0 +1,22 @@
+unit: stage1/l3/s03
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l3/s03#0000", anchor: "严佩我们来看一下这道题目我们之前" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s03#0001", anchor: "吉锲我会等于公式" }
+    do:
+      - { cmd: "show", char: "ji-qie", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s03#0007", anchor: "章拒起身我认为解决这道题首先要做" }
+    do:
+      - { cmd: "show", char: "zhang-ju", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s03#0009", anchor: "卞苑欸我我吗起身这个分子上是公式" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "bian-yuan", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s03#0010", anchor: "严佩就一定要凑对勾函数吗想想我们" }
+    do:
+      - { cmd: "hide", char: "ji-qie" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }

@@ -1,0 +1,1143 @@
+- id: bg/classroom_blackboard
+  file: assets/bg/classroom_blackboard.webp
+  kind: background
+  size:
+    - 1920
+    - 1080
+  pixel_ratio: 1
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+  regions:
+    board:
+      - 110
+      - 92
+      - 1180
+      - 600
+- id: bg/classroom_wide
+  file: assets/bg/classroom_wide.webp
+  kind: background
+  size:
+    - 1920
+    - 1080
+  pixel_ratio: 1
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: bg/lakeside_corridor
+  file: assets/bg/lakeside_corridor.webp
+  kind: background
+  size:
+    - 1920
+    - 1080
+  pixel_ratio: 1
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wan-lai/neutral
+  file: assets/ch/wan-lai/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/angry
+  file: assets/ch/yan-pei/angry.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/embarrassed
+  file: assets/ch/yan-pei/embarrassed.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/laugh
+  file: assets/ch/yan-pei/laugh.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/neutral
+  file: assets/ch/yan-pei/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/sad
+  file: assets/ch/yan-pei/sad.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/smile
+  file: assets/ch/yan-pei/smile.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/surprised
+  file: assets/ch/yan-pei/surprised.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yan-pei/thinking
+  file: assets/ch/yan-pei/thinking.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/liu-jin/neutral
+  file: assets/ch/liu-jin/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/bian-yuan/neutral
+  file: assets/ch/bian-yuan/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/shi-shu/neutral
+  file: assets/ch/shi-shu/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ji-qie/neutral
+  file: assets/ch/ji-qie/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/lv-shun/neutral
+  file: assets/ch/lv-shun/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wu-yu/neutral
+  file: assets/ch/wu-yu/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/zong-yan/neutral
+  file: assets/ch/zong-yan/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/zhan-yong/neutral
+  file: assets/ch/zhan-yong/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/shi-ren/neutral
+  file: assets/ch/shi-ren/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/angry
+  file: assets/ch/ming-zhu/angry.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/embarrassed
+  file: assets/ch/ming-zhu/embarrassed.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/laugh
+  file: assets/ch/ming-zhu/laugh.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/neutral
+  file: assets/ch/ming-zhu/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/sad
+  file: assets/ch/ming-zhu/sad.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/smile
+  file: assets/ch/ming-zhu/smile.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/surprised
+  file: assets/ch/ming-zhu/surprised.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/ming-zhu/thinking
+  file: assets/ch/ming-zhu/thinking.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/zhu-yi/neutral
+  file: assets/ch/zhu-yi/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/li-qing/neutral
+  file: assets/ch/li-qing/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/du-zhuan/neutral
+  file: assets/ch/du-zhuan/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/angry
+  file: assets/ch/yang-bing/angry.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/embarrassed
+  file: assets/ch/yang-bing/embarrassed.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/laugh
+  file: assets/ch/yang-bing/laugh.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/neutral
+  file: assets/ch/yang-bing/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/sad
+  file: assets/ch/yang-bing/sad.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/smile
+  file: assets/ch/yang-bing/smile.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/surprised
+  file: assets/ch/yang-bing/surprised.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/yang-bing/thinking
+  file: assets/ch/yang-bing/thinking.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/shen-si/neutral
+  file: assets/ch/shen-si/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/angry
+  file: assets/ch/wen-shu/angry.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/embarrassed
+  file: assets/ch/wen-shu/embarrassed.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/laugh
+  file: assets/ch/wen-shu/laugh.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/neutral
+  file: assets/ch/wen-shu/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/sad
+  file: assets/ch/wen-shu/sad.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/smile
+  file: assets/ch/wen-shu/smile.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/surprised
+  file: assets/ch/wen-shu/surprised.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wen-shu/thinking
+  file: assets/ch/wen-shu/thinking.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/you-qi/neutral
+  file: assets/ch/you-qi/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/angry
+  file: assets/ch/niu-hong/angry.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/embarrassed
+  file: assets/ch/niu-hong/embarrassed.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/laugh
+  file: assets/ch/niu-hong/laugh.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/neutral
+  file: assets/ch/niu-hong/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/sad
+  file: assets/ch/niu-hong/sad.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/smile
+  file: assets/ch/niu-hong/smile.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/surprised
+  file: assets/ch/niu-hong/surprised.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/niu-hong/thinking
+  file: assets/ch/niu-hong/thinking.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/di-que/neutral
+  file: assets/ch/di-que/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wang-ji/neutral
+  file: assets/ch/wang-ji/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/shi-shen/neutral
+  file: assets/ch/shi-shen/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/dou-fa/neutral
+  file: assets/ch/dou-fa/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/zhang-ju/neutral
+  file: assets/ch/zhang-ju/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/xiao-lv/neutral
+  file: assets/ch/xiao-lv/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/zhan-bu/neutral
+  file: assets/ch/zhan-bu/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/xu-nuo/neutral
+  file: assets/ch/xu-nuo/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/tan-pai/neutral
+  file: assets/ch/tan-pai/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/zhao-chao/neutral
+  file: assets/ch/zhao-chao/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/hao-qi/neutral
+  file: assets/ch/hao-qi/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/jin-li/neutral
+  file: assets/ch/jin-li/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/sui-xin/neutral
+  file: assets/ch/sui-xin/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO
+- id: ch/wei-he/neutral
+  file: assets/ch/wei-he/neutral.webp
+  kind: sprite
+  size:
+    - 800
+    - 1080
+  pixel_ratio: 2
+  anchor: bottom-center
+  scale: 1
+  offset:
+    - 0
+    - 0
+  origin: ai-generated
+  tool: TODO
+  date: TODO
+  license: TODO

@@ -1,0 +1,30 @@
+unit: stage1/l2/s06
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l2/s06#0000", anchor: "严佩现在我再来出道题本来想给大家" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s06#0001", anchor: "魏荷起身这个式子也许能裂项也许不" }
+    do:
+      - { cmd: "show", char: "wei-he", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s06#0009", anchor: "朱异其实注意到公式时配方结果就是" }
+    do:
+      - { cmd: "show", char: "zhu-yi", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s06#0013", anchor: "吴郁起身摇头" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "wu-yu", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l2/s06#0014", anchor: "严佩那坐吧还有人有思路吗吕顺" }
+    do:
+      - { cmd: "hide", char: "wei-he" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l2/s06#0015", anchor: "吕顺我觉得首先我们可以把这个积分" }
+    do:
+      - { cmd: "hide", char: "zhu-yi" }
+      - { cmd: "show", char: "lv-shun", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l2/s06#0021", anchor: "李清举手老师我有个思路" }
+    do:
+      - { cmd: "hide", char: "wu-yu" }
+      - { cmd: "show", char: "li-qing", expr: "neutral", slot: "center" }

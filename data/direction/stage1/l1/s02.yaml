@@ -1,0 +1,34 @@
+unit: stage1/l1/s02
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l1/s02#0000", anchor: "杨秉假设现在有两个一元的多项式函" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s02#0001", anchor: "牛弘举手示意那个杨导组长说了今年" }
+    do:
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l1/s02#0005", anchor: "肖虑起身肖虑" }
+    do:
+      - { cmd: "show", char: "xiao-lv", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l1/s02#0012", anchor: "温舒刚才呢肖同学用很快的速度帮我" }
+    do:
+      - { cmd: "hide", char: "yang-bing" }
+      - { cmd: "show", char: "wen-shu", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s02#0013", anchor: "施仁摇了摇头" }
+    do:
+      - { cmd: "hide", char: "niu-hong" }
+      - { cmd: "show", char: "shi-ren", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l1/s02#0015", anchor: "牛弘点了点头" }
+    do:
+      - { cmd: "hide", char: "xiao-lv" }
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l1/s02#0018", anchor: "杨秉刚好温助教讲完我们顺便来观摩" }
+    do:
+      - { cmd: "hide", char: "wen-shu" }
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s02#0020", anchor: "温舒谢谢大家鞠了一躬在赞叹和掌声" }
+    do:
+      - { cmd: "hide", char: "shi-ren" }
+      - { cmd: "show", char: "wen-shu", expr: "neutral", slot: "right" }

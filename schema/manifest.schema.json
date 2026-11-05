@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "file": {
+        "type": "string"
+      },
+      "kind": {
+        "type": "string",
+        "enum": ["sprite", "background", "cg", "bgm", "se", "ui"]
+      },
+      "size": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        ],
+        "items": false,
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "pixel_ratio": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "anchor": {
+        "type": "string"
+      },
+      "scale": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "offset": {
+        "type": "array",
+        "prefixItems": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "number"
+          }
+        ],
+        "items": false,
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "origin": {
+        "type": "string",
+        "enum": ["placeholder", "ai-generated", "human-made", "licensed"]
+      },
+      "tool": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "license": {
+        "type": "string"
+      },
+      "prompt_ref": {
+        "type": "string"
+      },
+      "regions": {
+        "type": "object",
+        "properties": {
+          "board": {
+            "type": "array",
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              }
+            ],
+            "items": false,
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "required": ["board"],
+        "additionalProperties": false
+      }
+    },
+    "required": ["id", "file", "kind", "origin"],
+    "additionalProperties": false
+  }
+}

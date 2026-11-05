@@ -1,0 +1,24 @@
+unit: stage1/l3/s00
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l3/s00#0000", anchor: "严佩进教室怎么有股臭味啊靠近第一" }
+    do:
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+      - { cmd: "expr", char: "yan-pei", expr: "surprised" }
+  - at: { id: "stage1/l3/s00#0001", anchor: "石绅咽下口中的粉老师你来点不" }
+    do:
+      - { cmd: "show", char: "shi-shen", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s00#0002", anchor: "严佩后退一步你给我出去" }
+    do:
+      - { cmd: "expr", char: "yan-pei", expr: "angry" }
+  - at: { id: "stage1/l3/s00#0004", anchor: "严佩那你倒是看一看自己身边一圈位" }
+    do:
+      - { cmd: "expr", char: "yan-pei", expr: "angry" }
+  - at: { id: "stage1/l3/s00#0006", anchor: "严老师打开窗户惬意地呼吸着清爽的" }
+    do:
+      - { cmd: "expr", char: "yan-pei", expr: "neutral" }
+      - { cmd: "hide", char: "shi-shen" }
+  - at: { id: "stage1/l3/s00#0007", anchor: "温舒严老师打扰一下有同学问能不能" }
+    do:
+      - { cmd: "show", char: "wen-shu", expr: "neutral", slot: "right" }

@@ -1,0 +1,30 @@
+unit: stage1/l3/s02
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l3/s02#0000", anchor: "严佩现在我们来看几种特殊的换元这" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s02#0001", anchor: "窦法起身这道题里公式是一个高次项" }
+    do:
+      - { cmd: "show", char: "dou-fa", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s02#0007", anchor: "温舒收到拿起手机" }
+    do:
+      - { cmd: "show", char: "wen-shu", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s02#0009", anchor: "狄雀令公式则公式然后这个积分化成" }
+    do:
+      - { cmd: "hide", char: "yan-pei" }
+      - { cmd: "show", char: "di-que", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l3/s02#0010", anchor: "严佩那你来说一下裂项的式子吧" }
+    do:
+      - { cmd: "hide", char: "dou-fa" }
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l3/s02#0013", anchor: "朱异可以用倒代换令公式所以公式公" }
+    do:
+      - { cmd: "hide", char: "wen-shu" }
+      - { cmd: "show", char: "zhu-yi", expr: "neutral", slot: "left" }
+  - at: { id: "stage1/l3/s02#0015", anchor: "游栖起身此处应令公式于是公式公式" }
+    do:
+      - { cmd: "hide", char: "di-que" }
+      - { cmd: "show", char: "you-qi", expr: "neutral", slot: "center" }

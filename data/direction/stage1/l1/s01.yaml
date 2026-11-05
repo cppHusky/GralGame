@@ -1,0 +1,13 @@
+unit: stage1/l1/s01
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l1/s01#0000", anchor: "杨秉大家对多项式一定是不陌生的比" }
+    do:
+      - { cmd: "show", char: "yang-bing", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l1/s01#0001", anchor: "施仁起身我叫施仁" }
+    do:
+      - { cmd: "show", char: "shi-ren", expr: "neutral", slot: "right" }
+  - at: { id: "stage1/l1/s01#0006", anchor: "杨秉我们又知道而且根据你的理论公" }
+    do:
+      - { cmd: "bg", id: "classroom_blackboard", transition: "fade", ms: 450 }

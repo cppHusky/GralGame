@@ -1,0 +1,10 @@
+unit: stage1/l4/s00
+defaults:
+  bg: classroom_wide
+cues:
+  - at: { id: "stage1/l4/s00#0000", anchor: "牛弘看电脑试了一下应该没问题了" }
+    do:
+      - { cmd: "show", char: "niu-hong", expr: "neutral", slot: "center" }
+  - at: { id: "stage1/l4/s00#0001", anchor: "严佩行那你随时盯着腾讯会议有同学" }
+    do:
+      - { cmd: "show", char: "yan-pei", expr: "neutral", slot: "right" }
