@@ -212,20 +212,15 @@ rt {
 .blackboard {
   position: absolute;
   z-index: 3;
-  top: 8vh;
-  left: 50%;
-  width: min(78vw, 1400px);
-  height: min(38vh, 380px);
-  transform: translateX(-50%);
-  font-size: clamp(24px, 2.8vw, 46px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 14px;
   overflow: hidden;
-  padding: 18px 26px;
+  padding: 1.6vh 2vw;
   color: #f2eedc;
-  text-shadow: 0 1px 4px rgb(0 0 0 / 35%);
+  font-size: clamp(24px, 2.8vw, 46px);
+  text-shadow: 0 1px 2px rgb(0 0 0 / 45%);
   pointer-events: none;
 }
 .board-equations,
@@ -717,16 +712,6 @@ html[data-reduced-motion="true"] *::after {
   .footer-note {
     display: none;
   }
-}
-.blackboard {
-  top: auto;
-  left: auto;
-  width: auto;
-  height: auto;
-  transform: none;
-  justify-content: center;
-  padding: 1.6vh 2vw;
-  text-shadow: 0 1px 1px rgb(0 0 0 / 28%);
 }
 .story-card {
   animation:

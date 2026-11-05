@@ -709,14 +709,14 @@ assets/_src/…                          SVG 源文件（入库）
 /*
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self'; style-src 'self'; style-src-attr 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 /index.html
   Cache-Control: no-cache
 ```
 
-Vite 产物里带哈希的文件放 `/assets/`，所以可以放心设成永久缓存；`index.html` 与不带哈希的文件必须 `no-cache`。CSP 里的 `style-src-attr 'unsafe-inline'` 是因为公式 SVG 带内联 `style` 属性；Pixi 是否需要 `worker-src blob:` 等额外项，要在预演环境实测后收紧 [待验证]。
+Vite 产物里带哈希的文件放 `/assets/`，所以可以放心设成永久缓存；`index.html` 与不带哈希的文件必须 `no-cache`。CSP 里的 `style-src-attr 'unsafe-inline'` 是因为公式 SVG 带内联 `style` 属性；`worker-src blob:` 是 Pixi 图片解码 worker 所需（ADR 0008）。Pixi 的 eval 依赖已通过 `pixi.js/unsafe-eval` 去掉，Zod 关闭 JIT，`production-csp` e2e 会守住这条线。
 - 部署流水线骨架（实现者补全并把 action 固定到具体提交）：
 
 ```yaml

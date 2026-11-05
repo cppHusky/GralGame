@@ -7,7 +7,9 @@ test('loads the stage-one story and opens the reader controls', async ({
   page.on('pageerror', (error) => errors.push(error.message));
   await page.goto('/');
 
-  await expect(page.getByRole('heading', { name: '积分精选' })).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: '不定积分解题法' }),
+  ).toBeVisible();
   await page.getByRole('button', { name: '章节选择' }).click();
   await expect(page.getByRole('heading', { name: '章节选择' })).toBeVisible();
   await expect(

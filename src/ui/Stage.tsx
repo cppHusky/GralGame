@@ -1,3 +1,7 @@
+// PixiJS 8 normally generates shader/uniform sync code with `new Function`,
+// which a strict `script-src 'self'` CSP blocks. This side-effect import swaps
+// in the official non-eval polyfills; it must load before any renderer exists.
+import 'pixi.js/unsafe-eval';
 import {
   Application,
   Assets,
@@ -100,7 +104,13 @@ export function Stage({
         app.renderer.on('resize', resize);
         resize();
       })
-      .catch(() => setFailed(true));
+      .catch((error: unknown) => {
+        console.error(
+          '舞台初始化失败，将只显示文字界面（检查浏览器 WebGL 与 CSP）。',
+          error,
+        );
+        setFailed(true);
+      });
 
     async function drawScene() {
       const active = engine.current;

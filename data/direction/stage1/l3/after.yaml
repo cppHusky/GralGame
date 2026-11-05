@@ -95,13 +95,13 @@ cues:
       - { cmd: "expr", char: "ming-zhu", expr: "smile" }
   - at: { id: "stage1/l3/after#0030", anchor: "明烛哦" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0031", anchor: "温舒对了你在哪个系啊" }
     do:
       - { cmd: "expr", char: "wen-shu", expr: "thinking" }
   - at: { id: "stage1/l3/after#0036", anchor: "明烛我我不知道" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0038", anchor: "明烛温姐姐你找我其实有什么事吧" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "thinking" }
@@ -115,22 +115,22 @@ cues:
   - at:
       { id: "stage1/l3/after#0041", anchor: "温舒是我在玉高时的同学他成绩优异" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at: { id: "stage1/l3/after#0042", anchor: "明烛这哪一点像我了" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "angry" }
   - at:
       { id: "stage1/l3/after#0043", anchor: "温舒很像呀他也是一个不满足于课内" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0044", anchor: "明烛偏过头把视线落回湖水那那他后" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "thinking" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0045", anchor: "温舒可惜他在大一那年因为一场重病" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0046", anchor: "明烛什什么再次扭头看向温舒声音微" }
     do:
@@ -140,25 +140,25 @@ cues:
       - { cmd: "expr", char: "wen-shu", expr: "surprised" }
   - at: { id: "stage1/l3/after#0048", anchor: "明烛他是我哥" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "surprised" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0049", anchor: "温舒依旧看着湖面果然是这样吗" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at: { id: "stage1/l3/after#0050", anchor: "明烛再次看向湖面其实是我堂哥" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0052", anchor: "明烛没有他家多年前就搬到市区后来" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0054", anchor: "明烛没有他怎么会愿意接触一个成绩" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "angry" }
   - at:
       { id: "stage1/l3/after#0055", anchor: "温舒不会的他绝对不是这样的人他总" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "thinking" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0056", anchor: "明烛朝温舒大吼够了哽咽为什么为什" }
     do:
@@ -213,11 +213,11 @@ cues:
       - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0074", anchor: "温舒那时候你多大" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0075", anchor: "明烛八岁还是九岁总之就在伯父一家" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0076", anchor: "温舒这不是你的错" }
     do:
       - { cmd: "expr", char: "wen-shu", expr: "sad" }
@@ -228,7 +228,7 @@ cues:
   - at:
       { id: "stage1/l3/after#0078", anchor: "温舒嘴唇略微动了两下但并没有说出" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0079", anchor: "明烛哥哥去世之后我本以为他从我这" }
     do:
@@ -243,21 +243,21 @@ cues:
       - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0082", anchor: "温舒抿紧嘴唇" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0083", anchor: "明烛但当配型结果出来的那一刻我知" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0084", anchor: "温舒抽出一张纸巾递给明烛" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0085", anchor: "明烛接过纸巾擦拭眼角的泪水现在的" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0086", anchor: "温舒沉默不语" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0087", anchor: "明烛对了温姐姐其实刚才你每次和我" }
     do:
@@ -284,24 +284,20 @@ cues:
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "smile" }
   - at:
-      { id: "stage1/l3/after#0094", anchor: "温舒我们怎么说呢我们之间其实没有" }
-    do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
-  - at:
       { id: "stage1/l3/after#0095", anchor: "明烛确实只有他做得出这样的事不然" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "smile" }
   - at:
       { id: "stage1/l3/after#0096", anchor: "温舒后来在义卖会上我们把摊位支起" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "smile" }
   - at: { id: "stage1/l3/after#0097", anchor: "明烛给我的话非把他骂一顿不可" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "angry" }
+      - { cmd: "expr", char: "ming-zhu", expr: "laugh" }
   - at:
       { id: "stage1/l3/after#0098", anchor: "温舒其实他选品的眼光还是不错的他" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "smile" }
   - at: { id: "stage1/l3/after#0101", anchor: "明烛他他都讲了什么" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "thinking" }
@@ -331,7 +327,7 @@ cues:
   - at:
       { id: "stage1/l3/after#0110", anchor: "温舒总之那次的义卖非常顺利我们在" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "smile" }
   - at: { id: "stage1/l3/after#0111", anchor: "明烛别告诉我是金瓶梅" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "surprised" }
@@ -342,30 +338,27 @@ cues:
   - at: { id: "stage1/l3/after#0113", anchor: "明烛啊" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "surprised" }
-  - at: { id: "stage1/l3/after#0114", anchor: "温舒我像是发现了什么不得了的" }
-    do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
   - at: { id: "stage1/l3/after#0115", anchor: "明烛什么意思啊这家伙" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "angry" }
+      - { cmd: "expr", char: "ming-zhu", expr: "thinking" }
   - at:
       { id: "stage1/l3/after#0116", anchor: "温舒今天听了你的故事之后我好像才" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at: { id: "stage1/l3/after#0119", anchor: "明烛所以所以你们之间只是暗恋" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "surprised" }
   - at:
       { id: "stage1/l3/after#0120", anchor: "温舒可以这么说吧但我真的不清楚他" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0121", anchor: "明烛低头温姐姐我明白你的心情了但" }
     do:
-      - { cmd: "expr", char: "ming-zhu", expr: "neutral" }
+      - { cmd: "expr", char: "ming-zhu", expr: "sad" }
   - at: { id: "stage1/l3/after#0122", anchor: "温舒眼神中闪过一丝失望" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at:
       { id: "stage1/l3/after#0123", anchor: "明烛不过温姐姐哥哥还有一些遗物在" }
     do:
@@ -388,7 +381,7 @@ cues:
   - at:
       { id: "stage1/l3/after#0128", anchor: "温舒虽然我也很想给你看但已经不可" }
     do:
-      - { cmd: "expr", char: "wen-shu", expr: "neutral" }
+      - { cmd: "expr", char: "wen-shu", expr: "sad" }
   - at: { id: "stage1/l3/after#0129", anchor: "明烛怎么这样又是因为他" }
     do:
       - { cmd: "expr", char: "ming-zhu", expr: "angry" }

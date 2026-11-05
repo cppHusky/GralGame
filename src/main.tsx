@@ -1,6 +1,8 @@
+import './zod-config.js';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { parse as parseYaml } from 'yaml';
+
 import manifestText from '../assets/manifest.yaml?raw';
 import { directionSchema } from '../schema/direction.js';
 import type { Script } from '../schema/ir.js';
@@ -805,7 +807,9 @@ function App() {
             章节选择
           </button>
           <div className="version-note">
-            <a href="https://github.com/cppHusky/IntegralCollection">GitHub 仓库</a>
+            <a href="https://github.com/cppHusky/IntegralCollection">
+              GitHub 仓库
+            </a>
           </div>
         </section>
       )}
